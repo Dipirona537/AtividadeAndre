@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Tela1 extends JFrame {
+public class Cadastro extends JFrame {
     private JTextField nome;
     private JTextField validade;//a
 
-    public Tela1(){
+    public Cadastro(){
         setLayout(new FlowLayout());
         setLocationRelativeTo(null);
         setTitle("Atividade");

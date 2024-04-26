@@ -1,5 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        new Tela1().setVisible(true);//b
+        new Cadastro().setVisible(true);//b
+        new TelaCadastro(new ArrayList<Item>()).setVisible(true);
     }
 }
