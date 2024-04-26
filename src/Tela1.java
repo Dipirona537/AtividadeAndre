@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Tela1 extends JFrame {
     private JTextField nome;
-    private JTextField validade;
+    private JTextField validade;//a
 
     public Tela1(){
         setLayout(new FlowLayout());
